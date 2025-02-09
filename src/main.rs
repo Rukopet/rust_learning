@@ -1,4 +1,5 @@
+mod secret_number_game;
+
 fn main() {
-    
-    println!("Hello, world!");
+    secret_number_game::play();
 }
